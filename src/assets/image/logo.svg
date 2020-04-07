@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 258 94" style="enable-background:new 0 0 258 94;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E0BF00;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'ArialRoundedMTBold';}
+	.st3{font-size:58.1455px;}
+	.st4{letter-spacing:-2.7;}
+	.st5{fill:url(#SVGID_1_);}
+	.st6{fill:#4A42B2;}
+	.st7{font-size:56.2871px;}
+	.st8{letter-spacing:-2.5;}
+</style>
+<path class="st0" d="M215,10.7c-17.2,9.9-14.7,57.4,0,64.8c13.3,6.6,44.3-16.1,40.7-39.7C252.8,16.6,227.9,3.3,215,10.7z"/>
+<text transform="matrix(0.7387 0 0 1 2.9995 62.0127)" class="st1 st2 st3 st4">Logo Here</text>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="77.3117" y1="76.6234" x2="198.2986" y2="76.6234">
+	<stop  offset="0" style="stop-color:#523FCC"/>
+	<stop  offset="0.1001" style="stop-color:#5844C4"/>
+	<stop  offset="0.2574" style="stop-color:#6752AD"/>
+	<stop  offset="0.452" style="stop-color:#816989"/>
+	<stop  offset="0.6766" style="stop-color:#A48956"/>
+	<stop  offset="0.9233" style="stop-color:#D1B116"/>
+	<stop  offset="1" style="stop-color:#E0BF00"/>
+</linearGradient>
+<polygon class="st5" points="77.3,71.9 198.3,74.3 198.3,81.3 77.3,76.6 "/>
+<text transform="matrix(0.7936 0 0 1 215.0703 55.6318)" class="st6 st2 st7 st8">e</text>
+</svg>

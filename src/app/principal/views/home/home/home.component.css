@@ -1,0 +1,36 @@
+/***/
+.wrapper{
+    height: auto;
+}
+.btn.btn-custom{
+    display: block;
+    color: #E0BF00 !important;
+    background-color: #FFF;
+    margin: auto;
+    max-width: 400px;
+    min-width: 400px;
+    border-radius: 50px;
+    padding: 15px;
+    box-shadow: none;
+    border: 1px solid #E0BF00;
+}
+.btn.btn-custom:hover{
+    background-color: #E0BF00;
+    color: #FFF !important;
+}
+/***/
+.title,
+.description{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-weight: 100 !important;
+}
+.title{
+    padding-top: 50px;
+    font-size: 2em;
+    color: #E0BF00;
+}
+.description{
+    padding-bottom: 30px;
+}

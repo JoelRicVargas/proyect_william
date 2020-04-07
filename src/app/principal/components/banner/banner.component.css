@@ -1,0 +1,77 @@
+/* Styles banner design */
+.banner{
+    background: #3122A8;
+    width: 100%;
+    height: 100vh;
+}
+.banner .overlayed{
+    background-image: url("/assets/image/background-banner.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.banner .content-banner{
+    display: flex;
+    position: relative;
+    color: #FFF;
+    width: calc(100% - 25vh);
+    max-width: 650px;
+    padding-bottom: 100px; 
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    transition: all 1s ease;
+}
+
+.banner .content-banner h1{
+    font-size: 3.2em;
+    font-weight: 600;
+    transition: all 1s ease;
+}
+.banner .content-banner h1 > span{
+    display: block;
+    margin-left: 150px;
+    color: #E0BF00;
+    font-weight: 500;
+}
+.banner .content-banner .content-search{
+    width: 100%;    
+}
+@media (max-width: 992.98px) {
+    .banner .content-banner{
+        width: calc(100% - 10vh);
+        max-width: 750px;
+    }
+}
+@media (max-width: 770.98px) {
+    .banner .container{
+        max-width: 750px;
+    }
+    .banner .content-banner h1{
+        font-size: 2.2em;
+        font-weight: 600;
+    }
+    .banner .content-banner{
+        width: calc(100% - 5vh);
+        max-width: 750px;
+    }
+}
+@media (max-width: 498.98px) {
+    .banner .content-banner h1{
+        font-size: 1.8em;
+    }
+    .banner .content-banner h1 > span{
+        margin-left: 50px;
+    }
+}
+@media (max-width: 375.98px) {
+    .banner .content-banner h1{
+        font-size: 1.5em;
+    }
+    .banner .content-banner h1 > span{
+        margin-left: 30px;
+    }
+}

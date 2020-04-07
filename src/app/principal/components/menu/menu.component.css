@@ -1,0 +1,187 @@
+/* Custom navbar CSS -- Bee Code/UI */
+.d-custom{
+    display: none;
+}
+h5{
+    margin-bottom: inherit;
+}
+.navbar.navbar-responsive{
+    margin-bottom: 0;
+    border-bottom: inherit;
+}
+.navbar.navbar-responsive .navbar-nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+}
+.navbar{
+    background-color:transparent;
+    box-shadow: inherit;
+    padding: 0;
+    border-radius: inherit;
+}
+.navbar-collapse.collapse{
+    position: relative;
+    background-color: transparent !important;
+    -webkit-transform: inherit;
+    width: 100%;
+    height: auto;
+}
+.navbar-collapse.collapse li{
+    background-color: #523FCC;
+    padding: 0 !important;
+}
+.navbar-collapse .navbar-nav .nav-item .nav-link{
+    padding: 10px;
+    margin: 0;
+}
+.nav-responsive{
+    display: none;
+}
+.nav-custom-search{
+    background-color: transparent;
+}
+.navbar,
+.nav-custom-search{
+    position: relative;
+    font-size: 14px;
+    z-index: 1;
+}
+.navbar .navbar-toggler > i{
+    color: #FFF;
+} 
+.navbar .nav-item .nav-link{
+    font-size: 0.9em;
+    color: #FFF;
+    padding: 0.9375rem 7px;
+    text-transform: none !important;
+}
+.navbar .nav-item .nav-link:hover{
+    color: #E0BF00;
+    font-weight: 500;
+}
+.navbar .nav-item.active .nav-link{
+    color: #E0BF00;
+    font-weight: 600;
+}
+.nav-custom-search{
+    width: 100%;
+}
+.nav-custom-search .logo-nav img{
+    width: 100%;
+    max-width: 160px;
+}
+.nav-custom-search input{
+    padding: 20px 10px;
+    height: calc(2em + .75rem + 2px);
+}
+.nav-custom-search .output-options{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px 0;
+}
+.nav-custom-search .output-options .p-custom{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-custom-search .output-options .p-custom:nth-child(1){
+    border-right: 1px solid #cbcbd4;
+}
+.nav-custom-search .output-options .p-custom:nth-child(2){
+    border-right: 1px solid #cbcbd4;
+}
+.nav-custom-search .output-options .p-custom:nth-child(3){
+    border-right: 1px solid #cbcbd4;
+}
+.nav-custom-search .output-options .row{
+    /* margin-left: -25px !important; */
+}
+.nav-custom-search .output-options i{
+    color: #FFF;
+    font-size: 1.9em;
+    /* margin-top: -10px; */
+}
+.nav-custom-search .output-options .content-options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.nav-custom-search .output-options  span{
+    color: #E0BF00;
+    font-weight: 600;
+}
+
+ .content-options.user-home{
+    font-size: 0.8em;
+}
+.content-options h5{
+    font-size: 1.1em;
+    line-height: 1.1em;
+    padding-left: 10px;
+    color: #FFF;
+}
+.content-options.content-items-cart{
+    font-size: 0.9em;
+    flex-direction: column-reverse;
+    border-right: inherit !important;
+}
+.content-options.content-items-cart i{
+    display: block;
+    margin-top: -10px !important;
+    color: #E0BF00 !important;
+}
+.content-options.content-items-cart .number-items{
+    display: block;
+    font-size: 0.7em;
+    color: #E0BF00;
+    background: #FFF;
+    border-radius: 50%;
+    padding: 7px 5px;
+    margin-left: 10px;
+}
+/** media querys **/
+@media (max-width: 1230.98px) {
+    .d-custom{
+        display: block !important;
+    }
+    .nav-primary{
+        display: none;
+    }
+    .nav-custom-search{
+        padding: 0 !important;
+        padding-bottom: 20px !important;
+    }
+    .nav-custom-search .logo-content{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        padding-bottom: 5px;
+    }
+    .nav-custom-search .content-options{
+        margin: auto;
+        max-width: 500px;
+    }
+    .nav-custom-search .output-options i{
+        font-size: 1.7em;
+    }
+    .nav-custom-search .d-flex{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .nav-responsive{
+        display: block;
+        margin: auto;
+    }
+    .nav-responsive .navbar-nav{
+        margin: auto;
+    }
+}
+@media (max-width: 575.98px) {
+
+    .nav-custom-search .logo-content{
+        display: none;
+    }
+}

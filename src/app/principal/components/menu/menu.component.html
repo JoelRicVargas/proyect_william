@@ -1,0 +1,79 @@
+<div class="navbar navbar-responsive d-custom" [ngStyle]="{'background-color': bg_nav}">
+            <ul class="navbar-nav">
+                <li class="nav-item" routerLinkActive="active">
+                    <a routerLink="/" class="nav-link" >Home</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                    <a routerLink="/login" class="nav-link">Login</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                    <a routerLink="/register" class="nav-link">Register</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                    <a routerLink="/reserve" class="nav-link">Reserve</a>
+                </li>
+                <li class="nav-item">
+                    <a routerLink="/dashboard" class="nav-link">Dashboard</a>
+                </li>
+            </ul>
+        </div>
+  <nav class="nav-custom-search pt-5 pb-5" [ngStyle]="{'background-color': bg_nav}">
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-lg-2 div-sm-4 col-xs-12 logo-content">
+                <div class="logo-nav">
+                    <img src="/assets/image/logo.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 div-sm-4 col-xs-12 nav-primary">
+                <nav class="navbar navbar-expand-lg">
+                    <ul class="navbar-nav m-custom">
+                        <li class="nav-item">
+                            <a routerLink="/" class="nav-link" >Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a routerLink="/login" class="nav-link">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a routerLink="/register" class="nav-link">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a routerLink="/reserve" class="nav-link">Reserve</a>
+                        </li>
+                        <li class="nav-item">
+                            <a routerLink="/dashboard" class="nav-link">Dashboard</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-4 div-sm-6 col-xs-12 content-options">
+                <div class="output-options">
+                  <div class="p-custom">
+                      <div class="content-options">
+                          <i class="fas fa-map-marker-alt"></i>
+                          <h5>Location <br> <span>Perú</span></h5>
+                      </div>
+                  </div>
+                  <div class="p-custom">
+                      <div class="content-options">
+                          <i class="fas fa-globe"></i>
+                          <h5><span>EN</span></h5>
+                      </div>
+                  </div>
+                  <div class="p-custom">
+                      <div class="content-options user-home">
+                          <h5><span>Hello, Joel V.</span><br>
+                          Ver cuenta</h5>
+                      </div>
+                  </div>
+                  <div class="p-custom">
+                      <div class="content-options content-items-cart">
+                          <i class="fas fa-shopping-cart"></i>
+                          <h5 class="number-items">+10</h5>
+                      </div>
+                  </div>            
+                </div>
+            </div>
+        </div>
+    </div>
+  </nav>

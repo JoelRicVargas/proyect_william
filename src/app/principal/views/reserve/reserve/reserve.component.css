@@ -1,0 +1,329 @@
+/***/
+.form-check .mapnetic-control-indicator{
+    right: 0;
+    margin-left: auto;
+}
+.form-check .custom-control.mapnetic-checkbox > .mapnetic-control-indicator{
+    display: inline-block;
+    position: absolute;
+    top: 2px ;
+    left: 0 ;
+    width: 16px ;
+    height: 16px ;
+    border: 2px solid #aaa;
+    transition: .3s;
+    margin-right: -25px;
+}
+.form-check .mapnetic-control-input{
+    display: none; 
+}
+.form-check .mapnetic-control-input:checked~.mapnetic-control-indicator{
+    border-color: #523FCC;
+    transform: rotateZ(45deg) translate(1px, -5px);
+    width: 10px;
+    margin-top: -2px;
+    border-top: 0px solid #fff !important;
+    border-left: 0px solid #fff !important;
+}
+.btn.btn-custom{
+    display: block;
+    color: #E0BF00 !important;
+    background-color: #E0BF00;
+    margin: auto;
+    max-width: 400px;
+    min-width: 300px;
+    border-radius: 50px;
+    padding: 15px;
+    box-shadow: none;
+    border: 1px solid #E0BF00;
+}
+.btn.btn-custom:hover{
+    background-color: #E0BF00;
+    color: #FFF !important;
+}
+.row{
+    margin-right: 0;
+}
+.title.text-right{
+    display: block;
+    text-align: right;
+    padding-right: 30px;
+    color: #E0BF00;
+    font-weight: 600;
+}
+.title.text-center{
+    color: #E0BF00;
+    font-weight: 600;
+}
+form{
+    height: inherit !important;
+    min-height: auto !important;
+    width: auto;
+}
+form .form-control{
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid #a79d9d;
+    padding: 22px 20px;
+}
+form .form-control:focus{
+    border-color: #523FCC !important;
+}
+form .form-check{
+    width: auto;
+}
+form .form-check label{
+    display: block;
+    width: auto;
+    margin: auto;
+    justify-content: center;
+    padding-left: 0;
+}
+.details{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    background-color: #E0BF00;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.details h3{
+    font-size: 1.2em;
+}
+.contraste-foto{
+    display: flex;
+    justify-content: center;
+}
+/***/
+.pago-seguro{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.pago-seguro .tab-pane{
+    padding: 0 50px;
+}
+.pago-seguro .contraste-box{
+    background: #fff;
+    width: auto;
+    height: auto;
+    margin: 15px 15px 0 15px;
+    box-shadow: 0px 28px 41px -17px rgba(0,0,0,.2);
+}
+.pago-seguro .precio-box{
+    background: #fff;
+    width: auto;
+    height: 80%;
+    margin: 15px 15px 0 15px;
+}
+.pago-seguro .interes-box{
+    background: transparent;
+    width: auto;
+    height: auto;
+    margin: 15px 15px 0 15px;
+}.pago-seguro .contraste-box {
+    line-height: 1.8em;
+    margin-bottom: 10px;
+}
+.pago-seguro .contraste-box  p{
+    color: #a9a9b6;
+}
+.pago-seguro .contraste-box  h2{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #E0BF00;
+}
+.pago-seguro .contraste-box .contraste-foto img{
+    width: 100%;
+}
+.precio-box .precio-total .precio-total-precio{
+    color: #E0BF00;
+}
+.precio-box .precio-total .precio-total-precio,.precio-box .precio-total .precio-total-titulo{
+    padding: 10px;
+}
+.precio-box .precio-total button{
+    width: 100%;
+    border-radius: 25px;
+    margin: 5px;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 12px 0 12px 0;
+    color: #FFF !important;
+}
+
+.precio-box .precio-total .precio-total-titulo,.precio-box .precio-total .precio-total-precio{
+    display: flex;
+    align-items: center;
+}
+.pago-seguro .descuento{
+    font-size: 1em;
+    position: absolute;
+    background: #E0BF00;
+    color: #fff;
+    width: 70px;
+    height: 35px;
+    padding-right: 10px;
+    border-bottom-right-radius: 150px 150px;
+    left: 0;
+    top: 0;
+    /*flex-box*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-precio{
+    background: transparent;
+}
+
+.fondo1{
+    background: url("/assets/image/arequipa.jpg");
+    height: 150px;
+    overflow: hidden;
+    padding: 0;
+}
+.fondo2{
+    background: url("/assets/image/machu-picchu.jpg");
+    height: 150px;
+    overflow: hidden;
+    padding: 0;
+}
+.fondo3{
+    background: url("/assets/image/arequipa.jpg");
+    height: 150px;
+    overflow: hidden;
+    padding: 0;
+}
+.btn-continuar{
+    display: flex;
+    justify-content: center;
+}
+.btn-continuar button{
+    margin: auto;
+    width: 100%;
+    max-width: 350px;
+    min-width: 350px;
+    color: #FFF !important;
+    border-radius: 30px;
+    height: 70px;
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+/*selecciona tu divisa*/
+.uno, .dos, .tres{
+    display: flex;
+    align-items: center;
+}
+
+.uno p, .dos p, .tres p{
+    line-height: 12px;
+    margin-top: -55px;
+}
+
+.espan0{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.espan1{
+    color: #E0BF00;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.espan2{
+    font-size: 13px;
+}
+
+label {
+    display: grid;
+    align-items: center;
+    grid-gap: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 0px 0 0 30px;
+    border-radius: 6px;
+    border: 2px solid transparent;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+    margin-top: 0;
+    z-index: 2;
+    margin-left: -15px;
+    justify-content: left;
+    line-height: 2.2em;
+    
+}
+
+.pago label {
+    display: grid;
+    align-items: center;
+    grid-gap: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 0px 0 0 30px;
+    border-radius: 6px;
+    border: 2px solid transparent;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+    margin-top: 0;
+    z-index: 2;
+    margin-left: -15px;
+    justify-content: left;
+}
+
+.pago input[type="radio"]{
+    margin-top: 15px;
+}
+input[type="radio"] {
+    z-index: 1;
+    position: absolute;
+}
+
+input[type="radio"]:checked ~ label {
+    border-color: #E0BF00;
+    background: transparent;
+    padding-bottom: 20px;
+}
+
+.margen-form{
+    margin-top: -30px;
+    width: 100%;
+}
+
+.btn-pagar button{
+    width: 100%;
+    border-radius: 20px;
+    height: auto;
+    font-size: 18px;
+    color: #FFF !important;
+}
+
+.card1{
+    width: 300%;
+}
+.nav{
+    padding: 20px 0;
+    background-color: #FFF;
+}
+.nav-custom{
+     width: 33%;
+}
+
+.nav-custom a{
+    width: 95%;
+    text-align: center;
+    color: #999999;
+    font-size: 22px;
+}
+
+.nav-link.active{
+    background-color: transparent !important;
+    color: #E0BF00 !important;
+    font-weight: 500;
+}
